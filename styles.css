@@ -1,0 +1,132 @@
+.screen{
+    border: 40px solid black;
+    border-radius: 20px;
+    height: 500px;
+    width: 50%;
+    box-shadow: 1px 1px 2px rgb(102, 35, 35);
+    background-color: rgba(136, 136, 136, 0.822);
+    padding: 4px;
+    
+    
+    }
+    .movie-info{ 
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+        /* text-align: center; */
+        background-color: rgba(23, 138, 173, 0.842);
+        margin-top: 30px;
+        box-shadow: 2px 2px 2px black;
+        font-weight: 800;
+        color: rgb(255, 239, 239);
+        /* padding: 20px; */
+        font-size: 25px;
+    }
+    .movie-info div p{
+        padding-top: 10px;
+        /* border: 1px solid black; */
+    }
+    .cello{ 
+        height: 35x;
+        width: 50px;
+        background-color: transparent;
+        padding-top: 20px;
+        color: blanchedalmond;
+    }
+  
+    @media (max-width:1200px) {
+      .movie-info{
+        font-size: 25px;
+      }
+      .screen{
+        width: 70%;
+      }
+
+    }
+
+    @media (max-width:844px) {
+      .movie-info{
+        font-size: 20px;
+      }
+      .screen{
+        border: 30px solid black;
+
+        width: 75%;
+      }
+
+    }
+
+    @media (max-width:677px) {
+      .movie-info{
+        font-size: 15px;
+        height: 80%;
+        width: 85%;
+
+      }
+      .screen{
+        border: 30px solid black;
+        height: 350px;
+        width: 70%;
+      }
+      .cello{ 
+        padding-top: 33px;
+    }
+ 
+
+    }
+    @media (max-width:535px) {
+        .screen{
+            border: 20px solid black;
+            height: 250px;
+            width: 82%;
+          }  
+          .movie-info{
+            font-size: 13px;
+    
+          }
+          .cello{ 
+            padding-top: 16px;
+            font-size: 11px;
+        }
+    }
+    @media (max-width:422px) {
+        .screen{
+            border: 20px solid black;
+            height: 250px;
+            width: 82%;
+          }  
+          .movie-info{
+            font-size: 13px;
+  
+    
+          }
+          .movie-info div p{
+            padding-top: 4px;
+            /* border: 1px solid black; */
+        }
+    }
+    @media (max-width:330px) {
+        .screen{
+            border: 20px solid black;
+            height: 200px;
+            width: 84%;
+          }  
+          .movie-info{
+            font-size: 13px;
+            margin-top: 10px;
+            height: 90%;
+            font-size: 10px;
+            width: 90%;
+    
+          }
+          .movie-info div p{
+            padding-top: 2px;
+            /* border: 1px solid black; */
+        }
+        .cello{ 
+            padding-top: 8px;
+            font-size: 11px;
+        }
+    }
